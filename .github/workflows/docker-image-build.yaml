@@ -34,7 +34,7 @@ jobs:
         id: meta-formini  
         uses: docker/metadata-action@v5
         with:
-          images: ${{ secrets.DOCKERHUB_USERNAME }}/angular-tour-of-heroes  
+          images: ${{ secrets.DOCKERHUB_USERNAME }}/angular-tour-of-heroes
           flavor: |
             latest=false  
           tags: |
