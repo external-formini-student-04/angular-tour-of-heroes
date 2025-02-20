@@ -8,5 +8,5 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'BOUCHAHDA Mohammed';
+  title = 'BOUCHAHDA Mohammed-20.02.2025';
 }
