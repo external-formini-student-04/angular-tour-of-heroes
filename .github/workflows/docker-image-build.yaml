@@ -34,7 +34,7 @@ jobs:
         id: meta-formini  
         uses: docker/metadata-action@v5
         with:
-          images: ${{ secrets.DOCKERHUB_USERNAME }}/angular-tour-of-heroes
+          images: ${{ secrets.DOCKERHUB_USERNAME }}/angular-tour-of-heroes  
           flavor: |
             latest=false  
           tags: |
@@ -56,4 +56,3 @@ jobs:
           cache-from: type=gha         #  Utilise le cache GitHub Actions pour accelerer les builds
           cache-to: type=gha,mode=max  #  Stocke un maximum de cache et reduire le temps execution
           platforms: linux/amd64       # Build image pour plusieurs architectures
-
